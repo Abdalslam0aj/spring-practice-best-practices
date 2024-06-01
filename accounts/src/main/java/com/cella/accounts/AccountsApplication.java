@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts;
+package com.cella.accounts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

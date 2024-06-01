@@ -1,10 +1,10 @@
-package com.cella_store_api.accounts.repository;
+package com.cella.accounts.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Repository;
 
-import com.cella_store_api.accounts.entity.Accounts;
+import com.cella.accounts.entity.Accounts;
 
 import jakarta.transaction.Transactional;
 

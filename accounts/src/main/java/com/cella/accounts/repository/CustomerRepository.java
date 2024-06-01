@@ -1,11 +1,11 @@
-package com.cella_store_api.accounts.repository;
+package com.cella.accounts.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.cella_store_api.accounts.entity.Customer;
+import com.cella.accounts.entity.Customer;
 
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Long>{

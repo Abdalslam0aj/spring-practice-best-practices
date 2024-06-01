@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts.audit;
+package com.cella.accounts.audit;
 
 import java.util.Optional;
 

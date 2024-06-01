@@ -1,6 +1,6 @@
-package com.cella_store_api.accounts.service;
+package com.cella.accounts.service;
 
-import com.cella_store_api.accounts.dto.CustomerDto;
+import com.cella.accounts.dto.CustomerDto;
 
 public interface IAccountService {
 

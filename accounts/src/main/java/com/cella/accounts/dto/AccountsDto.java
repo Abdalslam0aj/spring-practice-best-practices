@@ -1,6 +1,6 @@
-package com.cella_store_api.accounts.dto;
+package com.cella.accounts.dto;
 
-import com.cella_store_api.accounts.constants.ValidationMessages;
+import com.cella.accounts.constants.ValidationMessages;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotEmpty;

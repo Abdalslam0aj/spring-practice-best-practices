@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts.constants;
+package com.cella.accounts.constants;
 
 public class ValidationMessages {
 

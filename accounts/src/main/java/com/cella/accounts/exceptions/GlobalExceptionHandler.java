@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts.exceptions;
+package com.cella.accounts.exceptions;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.cella_store_api.accounts.dto.ErrorResponseDto;
+import com.cella.accounts.dto.ErrorResponseDto;
 
 @ControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {

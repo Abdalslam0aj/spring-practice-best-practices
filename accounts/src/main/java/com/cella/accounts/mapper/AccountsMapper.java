@@ -1,9 +1,9 @@
-package com.cella_store_api.accounts.mapper;
+package com.cella.accounts.mapper;
 
 import org.modelmapper.ModelMapper;
 
-import com.cella_store_api.accounts.dto.AccountsDto;
-import com.cella_store_api.accounts.entity.Accounts;
+import com.cella.accounts.dto.AccountsDto;
+import com.cella.accounts.entity.Accounts;
 
 /**
  * AccountsMapper

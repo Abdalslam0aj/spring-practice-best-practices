@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts.entity;
+package com.cella.accounts.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.GenericGenerators;

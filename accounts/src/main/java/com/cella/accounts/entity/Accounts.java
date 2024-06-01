@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts.entity;
+package com.cella.accounts.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts.exceptions;
+package com.cella.accounts.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

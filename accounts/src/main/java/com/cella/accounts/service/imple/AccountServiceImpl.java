@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts.service.imple;
+package com.cella.accounts.service.imple;
 
 import java.time.LocalDateTime;
 import java.util.Random;
@@ -6,18 +6,18 @@ import java.util.Random;
 import org.aspectj.internal.lang.annotation.ajcDeclareAnnotation;
 import org.springframework.stereotype.Service;
 
-import com.cella_store_api.accounts.constants.AccountsConstants;
-import com.cella_store_api.accounts.dto.AccountsDto;
-import com.cella_store_api.accounts.dto.CustomerDto;
-import com.cella_store_api.accounts.entity.Accounts;
-import com.cella_store_api.accounts.entity.Customer;
-import com.cella_store_api.accounts.exceptions.CustomerAlreadyExistsException;
-import com.cella_store_api.accounts.exceptions.ResourceNotFoundException;
-import com.cella_store_api.accounts.mapper.AccountsMapper;
-import com.cella_store_api.accounts.mapper.CustomerMapper;
-import com.cella_store_api.accounts.repository.AccountsRepository;
-import com.cella_store_api.accounts.repository.CustomerRepository;
-import com.cella_store_api.accounts.service.IAccountService;
+import com.cella.accounts.constants.AccountsConstants;
+import com.cella.accounts.dto.AccountsDto;
+import com.cella.accounts.dto.CustomerDto;
+import com.cella.accounts.entity.Accounts;
+import com.cella.accounts.entity.Customer;
+import com.cella.accounts.exceptions.CustomerAlreadyExistsException;
+import com.cella.accounts.exceptions.ResourceNotFoundException;
+import com.cella.accounts.mapper.AccountsMapper;
+import com.cella.accounts.mapper.CustomerMapper;
+import com.cella.accounts.repository.AccountsRepository;
+import com.cella.accounts.repository.CustomerRepository;
+import com.cella.accounts.service.IAccountService;
 
 import io.micrometer.common.lang.NonNull;
 import lombok.AllArgsConstructor;

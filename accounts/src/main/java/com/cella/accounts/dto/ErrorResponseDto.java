@@ -1,10 +1,10 @@
-package com.cella_store_api.accounts.dto;
+package com.cella.accounts.dto;
 
 import java.time.LocalDateTime;
 
 import org.springframework.http.HttpStatus;
 
-import com.cella_store_api.accounts.constants.AccountsConstants;
+import com.cella.accounts.constants.AccountsConstants;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;

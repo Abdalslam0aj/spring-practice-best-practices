@@ -1,4 +1,4 @@
-package com.cella_store_api.accounts.controller;
+package com.cella.accounts.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cella_store_api.accounts.constants.AccountsConstants;
-import com.cella_store_api.accounts.dto.CustomerDto;
-import com.cella_store_api.accounts.dto.ErrorResponseDto;
-import com.cella_store_api.accounts.dto.ResponseDto;
-import com.cella_store_api.accounts.service.IAccountService;
+import com.cella.accounts.constants.AccountsConstants;
+import com.cella.accounts.dto.CustomerDto;
+import com.cella.accounts.dto.ErrorResponseDto;
+import com.cella.accounts.dto.ResponseDto;
+import com.cella.accounts.service.IAccountService;
 
 import io.swagger.v3.oas.annotations.ExternalDocumentation;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;

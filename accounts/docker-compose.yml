@@ -1,0 +1,26 @@
+services:
+  accounts:
+    image: "abdulslam/accounts:s4"
+    container_name: accounts-ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - local
+  cards:
+    image: "abdulslam/cards:s4"
+    container_name: cards-ms
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - local
+networks:
+  local:
+    driver: "bridge"
